@@ -1,50 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet">
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-crossorigin="anonymous"
-referrerpolicy="no-referrer"
-/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Roboto:ital,wght@0,700;0,900;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-   
-<!-- header starts here  -->
-<header id="blog-header">
-    <figure class="logo-figure">
-      <i class="fab fa-autoprefixer logo"></i>
-    </figure>
+
+  <!-- header starts here  -->
+  <header id="blog-header">
+    <figure class="logo-figure"><i class="fab fa-autoprefixer logo"></i></figure>
+
 
     <nav aria-label="Main Menu">
       <ul id="menubar" role="menubar" aria-label="Main Menu">
         <li role="none">
-          <a href="#" class="nav-link" role="menuitem">Home</a>
+          <a href="#" target="_blank" class="nav-link" role="menuitem">Home </a>
         </li>
         <li role="none">
-          <a href="#" class="nav-link" role="menuitem">About</a>
+          <a href="#" target="_blank" class="nav-link" role="menuitem">About me </a>
         </li>
         <li role="none">
-          <a href="#" class="nav-link" role="menuitem">Archives</a>
+          <a href="#" target="_blank" class="nav-link" role="menuitem">Archives </a>
         </li>
         <li role="none">
-          <a href="#" class="nav-link" role="menuitem">Blog Posts</a>
+          <a href="#" target="_blank" class="nav-link" role="menuitem">Blog Posts </a>
         </li>
         <li role="none">
-          <a href="#" class="nav-link" role="menuitem">Contact</a>
+          <a href="#" target="_blank" class="nav-link" role="menuitem">Contact </a>
         </li>
       </ul>
     </nav>
   </header>
   <!-- header ends here  -->
+
+  <!-- main starts here  -->
+  <main>
+    <!-- banner section starts here  -->
+    <section id="blog-banner-section">
+      <article>
+        <h1 class="banner-heading">Web development</h1>
+        <p class="banner-description text-justify">
+          I believe Web development is always fun. We should learn web
+          development for a bright career. I have started learning web
+          development recent year and still learning. I started with HTML,
+          CSS, JS and now I am decided to learning next.js. I must say web development
+          demands more patience and consistency.
+        </p>
+      </article>
+      <aside>
+        <img src="images/cover.jpg" alt="cover photo" class="banner-img" />
+      </aside>
+    </section>
+    <!-- banner section ends here  -->
+
+    <!-- blog-about section starts here  -->
+
+    <section id="blog-about" class="section-center">
+      <h2 class="section-heading">About Me</h2>
+      <div class="card-container">
+        <div class="card">
+          <h3 class="card-header">Education</h3>
+          <p class="card-description">Ipsum dolor amet magna sadipscing voluptua. Sed amet diam amet eirmod est
+            gubergren elitr, ipsum dolore clita lorem ipsum dolor vero et. Et dolores sit ut ut kasd ea. Rebum.</p>
+          <button type="submit" class="card-btn btn">Read me</button>
+        </div>
+
+        <div class="card">
+          <h3 class="card-header">Education</h3>
+          <p class="card-description">Ipsum dolor amet magna sadipscing voluptua. Sed amet diam amet eirmod est
+            gubergren elitr, ipsum dolore clita lorem ipsum dolor vero et. Et dolores sit ut ut kasd ea. Rebum.</p>
+          <button type="submit" class="card-btn btn">Read me</button>
+        </div>
+
+        <div class="card">
+          <h3 class="card-header">Education</h3>
+          <p class="card-description">Ipsum dolor amet magna sadipscing voluptua. Sed amet diam amet eirmod est
+            gubergren elitr, ipsum dolore clita lorem ipsum dolor vero et. Et dolores sit ut ut kasd ea. Rebum.</p>
+          <button type="submit" class="card-btn btn">Read me</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- blog-about section ends here  -->
+
+    <!-- archives section Starts here  -->
+
+    <section id="archives" class="section-center">
+      <h2 class="section-heading">Archives</h2>
+
+      <div class="archives-container">
+        <ul class="archives-container-lists">
+          <li class="archives-container-list"><img class="archives-img"
+              src="https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fHdlYiUyMGRldmVsb3B8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="image1"></li>
+          <li class="archives-container-list"><img class="archives-img"
+              src="https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTl8fHdlYiUyMGRldmVsb3B8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="image1"></li>
+          <li class="archives-container-list"><img class="archives-img"
+              src="https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjF8fHdlYiUyMGRldmVsb3B8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="image1"></li>
+          <li class="archives-container-list"><img class="archives-img"
+              src="https://images.unsplash.com/photo-1488751045188-3c55bbf9a3fa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fHdlYiUyMGRldmVsb3B8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="image1"></li>
+          <li class="archives-container-list"><img class="archives-img"
+              src="https://images.unsplash.com/photo-1487611459768-bd414656ea10?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjR8fHdlYiUyMGRldmVsb3B8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="image1"></li>
+        </ul>
+
+
+      </div>
+
+    </section>
+
+    <!-- archives section ends here  -->
+
+    <!-- blog-post section ends here  -->
+
+    <section id="blog-postsid" class="section-center">
+      <h2 class="section-heading blog-posts-heading">Blog Posts</h2>
+
+      <div class="blog-posts">
+        <aside class="blog-post-aside"><img
+            src="https://images.unsplash.com/photo-1545239351-ef35f43d514b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHdlYiUyMGRldmVsb3AlMjBibG9nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            alt="" class="blog-img"></aside>
+
+        <article class="blog-content">
+          <h2 class="blog-heading">Blog 1</h2>
+          <h3 class="blog-sub-heading">Sub heading</h3>
+          <p class="blog-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat dolores quam
+            velit minima ullam, deleniti nulla aliquid cum sequi quia dignissimos pariatur, omnis temporibus vero.</p>
+          <button class="btn blog-btn">Learn more</button>
+        </article>
+
+
+
+      </div>
+
+
+      <div class="blog-posts">
+        <aside class="blog-post-aside"><img
+            src="https://images.unsplash.com/photo-1526280760714-f9e8b26f318f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGV2ZWxvcCUyMGJsb2d8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            alt="" class="blog-img"></aside>
+
+        <article class="blog-content">
+          <h2 class="blog-heading">Blog 1</h2>
+          <h3 class="blog-sub-heading">Sub heading</h3>
+          <p class="blog-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat dolores quam
+            velit minima ullam, deleniti nulla aliquid cum sequi quia dignissimos pariatur, omnis temporibus vero.</p>
+          <button class="btn blog-btn">Learn more</button>
+        </article>
+
+
+
+      </div>
+      <div class="blog-posts">
+        <aside class="blog-post-aside"><img
+            src="https://images.unsplash.com/photo-1501747315-124a0eaca060?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdlYiUyMGRldmVsb3AlMjBibG9nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+            alt="" class="blog-img"></aside>
+
+        <article class="blog-content">
+          <h2 class="blog-heading">Blog 1</h2>
+          <h3 class="blog-sub-heading">Sub heading</h3>
+          <p class="blog-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat dolores quam
+            velit minima ullam, deleniti nulla aliquid cum sequi quia dignissimos pariatur, omnis temporibus vero.</p>
+          <button class="btn blog-btn">Learn more</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- blog-post section ends here  -->
+
+    <!-- Contact section start here  -->
+
+
+    <section id="contact-section" class="section-center">
+      <h2 class="section-heading">Contact me</h2>
+      <form action="" id="contact-form">
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input type="text" id="name" required autocomplete="name">
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" id="email">
+        </div>
+
+        <div class="form-control">
+          <label for="message">Message</label>
+          <textarea name="message" id="message"></textarea>
+        </div>
+        <div class="form-control form-btn-field">
+          <button type="submit" class="btn contact-btn">Submit</button>
+        </div>
+
+
+      </form>
+    </section>
+    <!-- contact section ends here  -->
+  </main>
+  <!-- main ends here  -->
+
+
+  <!-- footer start here  -->
+  <footer>
+
+    <p class="copyright-text">
+      Copyright &copy; by Nargis Sultana. All rights Reserved.
+    </p>
+
+
+    <nav aria-label="Footer Menu">
+      <ul id="menubar2" role="menubar2" aria-label="Footer Menu">
+        <li role="none">
+          <a href="https://www.facebook.com" target="_blank" class="nav-link" role="menuitem"> <i
+              class="fab fa-facebook footer-icon"></i></a>
+        </li>
+        <li role="none">
+          <a href="https://www.youtube.com" target="_blank" class="nav-link" role="menuitem"> <i
+              class="fab fa-youtube footer-icon"></i></a>
+
+        </li>
+        <li role="none">
+          <a href="https://www.github.com" target="_blank" class="nav-link" role="menuitem"><i
+              class="fab fa-github footer-icon"></i></a>
+
+        </li>
+        <li role="none">
+          <a href="https://www.linkedin.com" target="_blank" class="nav-link" role="menuitem"> <i
+              class="fab fa-linkedin footer-icon"></i> </a>
+        </li>
+
+      </ul>
+    </nav>
+
+
+  </footer>
+
+  <!-- footer ends here  -->
+
+
+
 </body>
+
 </html>
